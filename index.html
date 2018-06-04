@@ -1,0 +1,232 @@
+<!DOCTYPE html><
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ResponsifyJS – A jquery plugin that makes images truly responsive, without sacrificing anyone's face.</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://s3.amazonaws.com/icomoon.io/56817/responsifyjs/style.css?2mzf5c">
+    <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900,600,700,500,300,200' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="responsify.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+<header id="demo">
+  <div class="row">
+    <div class="instruction card">
+      <h1>DEMO</h1>
+      <p><strong>Instruction:</strong><br>
+(If on desktop) Resize the browser window to see how the images adapt to responsive layout; click on images to see the original image in a new tab.</p>
+    </div>
+    <div class="git card">
+      <h1>GITHUB</h1>
+      <a href="https://github.com/wentin/ResponsifyJS/" target="_blank" class="icon github"></a>
+    </div>
+    <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/113726/29.jpg" target="_blank" class="img1">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/113726/29.jpg" alt="" data-focus-left="0.59" data-focus-top="0.61" data-focus-right="0.96" data-focus-bottom="0.98"/>
+    </a>
+    <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/113726/23.jpg" target="_blank" class="img2">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/113726/23.jpg" alt="" data-focus-left="0.29" data-focus-top="0.22" data-focus-right="0.38" data-focus-bottom="0.82"/>
+    </a>
+  </div>
+  <div class="row">
+    <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/113726/4.jpg" target="_blank" class="img3">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/113726/4.jpg" alt="" data-focus-left="0.67" data-focus-top="0.45" data-focus-right="0.95" data-focus-bottom="0.81"/>
+    </a>
+    <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/113726/28.jpg" target="_blank" class="img4"> 
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/113726/28.jpg" alt="" data-focus-left="0.33" data-focus-top="0.15" data-focus-right="0.46" data-focus-bottom="0.82"/>
+    </a>
+    <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/113726/6.jpg" target="_blank" class="img5"> 
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/113726/6.jpg" alt="" data-focus-left="0.20" data-focus-top="0.39" data-focus-right="0.38" data-focus-bottom="0.58"/>
+    </a>
+    <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/113726/4.jpg" target="_blank" class="img6">     
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/113726/4.jpg" alt="" data-focus-left="0.67" data-focus-top="0.44" data-focus-right="0.95" data-focus-bottom="0.82"/>
+    </a>
+  </div>
+  <div class="row">
+    <div class="app card">
+      <h1>APP</h1>
+      <a href="app/" target="_blank" class="icon export"></a>
+    </div>
+    <div class="share card">
+      <h1>SHARE</h1>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//responsifyjs.space/" onclick="fbsw=window.open(this.href,'fbs','height=300,width=500,top='+((screen.height/2)-150)+',left='+((screen.width/2)-250));if(window.focus){fbsw.focus()}return false;" target="_blank" class="icon facebook"></a>
+      <a href="https://twitter.com/intent/tweet?text=A jquery plugin that makes images truly responsive &via=DesignJokes&url=http://responsifyjs.space/&hashtags=ResponsifyJS" onclick="twsw=window.open(this.href,'tws','height=300,width=500,top='+((screen.height/2)-150)+',left='+((screen.width/2)-250));if(window.focus){twsw.focus()}return false;" target="_blank" class="icon twitter"></a>
+    </div>
+    <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/113726/6.jpg" target="_blank" class="img7">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/113726/6.jpg" alt="" data-focus-left="0.20" data-focus-top="0.39" data-focus-right="0.38" data-focus-bottom="0.58"/>
+    </a>
+    <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/113726/23.jpg" target="_blank" class="img8">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/113726/23.jpg" alt="" data-focus-left="0.29" data-focus-top="0.22" data-focus-right="0.38" data-focus-bottom="0.82"/>
+    </a>
+    
+    <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/113726/11.jpg" target="_blank" class="img9">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/113726/11.jpg" alt="" data-focus-left="0.26" data-focus-top="0.39" data-focus-right="0.37" data-focus-bottom="0.63"/>
+    </a>
+    <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/113726/10.jpg" target="_blank" class="img10">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/113726/10.jpg" alt="" data-focus-left="0.30" data-focus-top="0.44" data-focus-right="0.47" data-focus-bottom="0.69"/>
+    </a>
+    <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/113726/29.jpg" target="_blank" class="img11">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/113726/29.jpg" alt="" data-focus-left="0.59" data-focus-top="0.61" data-focus-right="0.96" data-focus-bottom="0.98"/>
+    </a>
+  </div>
+  <div class="clr"></div>
+
+  <div class="gifs">
+    <div class="with">
+      <img src="comparison/with.gif" alt="" width="480" height="382">
+      <h2>Responsive image <strong>with</strong> responsify.js</h2>
+    </div>
+    <div class="without">
+      <img src="comparison/without.gif" alt="" width="480" height="382">
+      <h2>Responsive image <strong>without</strong> responsify.js</h2>
+    </div>
+    <div class="clr"></div>
+  </div>
+</header>
+<main>
+<h1><a id="user-content-responsifyjs" class="anchor" href="#responsifyjs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Responsify.js</h1>
+
+<p><code>A jquery plugin that makes images truly responsive, without sacrificing anyone's face :D</code></p>
+
+<p>When images are used in a responsive container on web design, because of the container can change to any width:height ratio, a group shot could end up being cut off on people's faces, a nice photograph following "rule of third" could end up with no object in view. Responsive images face the challenge of how to keep the focused objects/area in view, this jquery plugin is here to solve the problem.</p>
+
+<h3><a id="user-content-download" class="anchor" href="#download" aria-hidden="true"><span class="octicon octicon-link"></span></a>Download</h3>
+
+<ul>
+<li><a href="https://raw.githubusercontent.com/wentin/ResponsifyJS/master/responsify.js">responsify.js</a></li>
+<li><a href="https://raw.githubusercontent.com/wentin/ResponsifyJS/master/responsify.min.js">responsify.min.js</a></li>
+</ul>
+
+<h3><a id="user-content-demo" class="anchor" href="#demo" aria-hidden="true"><span class="octicon octicon-link"></span></a>Demo</h3>
+
+<p><a href="http://responsifyjs.space/#demo">http://responsifyjs.space/#demo</a></p>
+
+<h3><a id="user-content-app" class="anchor" href="#app" aria-hidden="true"><span class="octicon octicon-link"></span></a>App</h3>
+
+<p><a href="http://responsifyjs.space/app">http://responsifyjs.space/app</a></p>
+
+<p>Use this interactive web app to generate the focus area data</p>
+
+<h3><a id="user-content-what-it-does" class="anchor" href="#what-it-does" aria-hidden="true"><span class="octicon octicon-link"></span></a>What it does</h3>
+
+<p>Responsify.js does the following:</p>
+
+<ol>
+<li>It allows you define a focus area on an image using <code>data-focus-xxx</code> tag</li>
+<li>It takes in the focus area data from the image, calcuate the image's container's size, resize and position the image accordingly, make sure the focus area is always in view and in the best position possible.</li>
+</ol>
+
+<p>Responsive image <strong>with</strong> responsify.js</p>
+
+<ul>
+<li><a href="http://wentin.github.io/ResponsifyJS/comparison/with.gif">view gif</a>     |     <a href="http://wentin.github.io/ResponsifyJS/comparison/with-responsify-js/">play it yourself</a></li>
+</ul>
+
+<p>Responsive image <strong>without</strong> responsify.js</p>
+
+<ul>
+<li><a href="http://wentin.github.io/ResponsifyJS/comparison/without.gif">view gif</a>    |      <a href="http://wentin.github.io/ResponsifyJS/comparison/without-responsify-js/">play it yourself</a></li>
+</ul>
+
+<h3><a id="user-content-how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to use</h3>
+
+<ol>
+<li><p>Use this interactive web app to generate the focus area data <a href="http://responsifyjs.space/app/">http://responsifyjs.space/app/</a></p>
+
+<pre><code>  &lt;img src="image.png" alt="" 
+  data-focus-left=".30" data-focus-top=".12" data-focus-right=".79" data-focus-bottom=".66" /&gt;
+</code></pre>
+
+<p><code>data-focus-left</code> is the focus area's left position comparing to the image's full width, in decimal. For example, if the full width is 300px, the focus area's left is 90, then the <code>data-focus-left</code> should be 90/300 = <code>0.3</code>. Same logic applies to other three data attributes.</p></li>
+<li><p>Embed the responsify.js in the html</p>
+
+<pre><code>  &lt;script src="responsify.js"&gt;&lt;/script&gt;
+</code></pre></li>
+<li><p>Call responsify function when window object is loaded</p>
+
+<pre><code>  $(window).load(function() {
+    $('img').responsify();
+  });
+</code></pre></li>
+<li><p>Call responsify function again when the window is being resized (optional)</p>
+
+<pre><code>  $(window).resize(function(){
+    $('img').responsify();
+  })
+</code></pre></li>
+</ol>
+
+<h3><a id="user-content-contact-me" class="anchor" href="#contact-me" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contact Me</h3>
+
+<ul>
+<li>Follow <a href="http://twitter.com/DesignJokes">@DesignJokes</a> on Twitter</li>
+<li>Email <a href="mailto:zhangwenting111@gmail.com">zhangwenting111@gmail.com</a></li>
+</ul>
+
+<h3><a id="user-content-other-project-by-wentin" class="anchor" href="#other-project-by-wentin" aria-hidden="true"><span class="octicon octicon-link"></span></a>Other Project by Wentin</h3>
+
+<ul>
+<li><a href="http://typedetail.com/">Type Detail</a></li>
+<li><a href="https://github.com/wentin/underlineJS">underline.js</a></li>
+<li><a href="http://profession.is/#/">profession.is</a></li>
+</ul>
+</main>
+<footer>
+  <div class="share">
+    <h3>SHARE</h3>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//responsifyjs.space/" onclick="fbsw=window.open(this.href,'fbs','height=300,width=500,top='+((screen.height/2)-150)+',left='+((screen.width/2)-250));if(window.focus){fbsw.focus()}return false;" target="_blank" class="icon facebook"></a>
+    <a href="https://twitter.com/intent/tweet?text=A jquery plugin that makes images truly responsive &via=DesignJokes&url=http://responsifyjs.space/&hashtags=ResponsifyJS" onclick="twsw=window.open(this.href,'tws','height=300,width=500,top='+((screen.height/2)-150)+',left='+((screen.width/2)-250));if(window.focus){twsw.focus()}return false;" target="_blank" class="icon twitter"></a>
+  </div>
+  <div id="disqus_thread"></div>
+  <script>
+  /**
+  * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+  * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+  */
+
+  var disqus_config = function () {
+  this.page.url = "http://responsifyjs.space/"; // Replace PAGE_URL with your page's canonical URL variable
+  // this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+  };
+
+  (function() { // DON'T EDIT BELOW THIS LINE
+  var d = document, s = d.createElement('script');
+
+  s.src = '//responsifyjs.disqus.com/embed.js';
+
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+</footer>
+<div class="overlay">
+  <div class="module share">
+    <div class="close icon"></div>
+    <h1>Thanks for you support!</h1>
+    <div class="moduleContent">
+      <p>Enjoy Responsify.js? Star it on github, share it on social media! I really appreciate it :D </p>
+      <a href="https://github.com/wentin/ResponsifyJS/" target="_blank" class="icon githubStar"></a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//responsifyjs.space/" onclick="fbsw=window.open(this.href,'fbs','height=300,width=500,top='+((screen.height/2)-150)+',left='+((screen.width/2)-250));if(window.focus){fbsw.focus()}return false;" target="_blank" class="icon facebook"></a>
+      <a href="https://twitter.com/intent/tweet?text=A jquery plugin that makes images truly responsive &via=DesignJokes&url=http://responsifyjs.space/&hashtags=ResponsifyJS" onclick="twsw=window.open(this.href,'tws','height=300,width=500,top='+((screen.height/2)-150)+',left='+((screen.width/2)-250));if(window.focus){twsw.focus()}return false;" target="_blank" class="icon twitter"></a>
+    </div>
+  </div>
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-70787801-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+
+</html>

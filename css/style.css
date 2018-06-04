@@ -1,0 +1,480 @@
+body {
+  font-family: 'Source Code Pro';
+}
+.clr {
+  clear: both;
+}
+header#demo {
+  /* border: solid 2px wheat; */
+}
+.row {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+.row a {
+  display: block;
+  overflow: hidden;
+  float: left;
+  box-sizing: border-box;
+  /* border: solid 2px wheat; */
+  background-color: wheat;
+}
+.img1 {
+  width: 66.67%;
+  height: 40vh;
+  position: relative;
+}
+.img2 {
+  width: 33.33%;
+  height: 40vh;
+}
+.img3 {
+  width: 33.33%;
+  height: 60vh;
+}
+.img4 {
+  width: 25%;
+  height: 60vh;
+}
+.img5, .img6 {
+  width: 41.67%;
+  height: 30vh;
+}
+.img7 {
+  height: 70vh;
+  width: 16.66%;
+}
+.img8 {
+  height: 70vh;
+  width: 16.67%;
+}
+.img9 {
+  width: 66.67%;
+  height: 30vh;
+}
+.img10 {
+  width: 41.67%;
+  height: 40vh;
+}
+.img11 {
+  width: 25%;
+  height: 40vh;
+}
+header .card {
+  font-family: 'Source Code Pro';
+  position: absolute;
+  z-index: 9;
+}
+header .card h1 {
+  display: inline-block;
+  border-radius: 32px;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  line-height: 36px;
+  padding: 0 18px;
+}
+header .instruction.card {
+  left: 20px;
+  top: 20px;
+}
+header .instruction.card h1 {
+  background: #35195B;
+  color: #F2EDC5;
+}
+header .instruction.card p {
+  color: #35195B;
+  background: rgba(242, 237, 197, 0.85);
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 20px;
+  width: 364px;
+  padding: 12px 18px;
+  margin-top: 6px;
+}
+header .instruction.card p strong {
+  font-weight: bold;
+}
+header .git.card {
+  right: 20px;
+  top: 20px;
+}
+header .git.card h1 {
+  background: #45252A;
+  color: #FFF4E2;
+  float: left;
+}
+header .app.card {
+  left: 20px;
+  top: 20px;
+}
+header .app.card h1 {
+  background: #884F67;
+  color: #FFFEDF;
+  float: left;
+}
+
+header .share.card {
+  right: 20px;
+  top: 20px;
+}
+header .share.card h1 {
+  background: #320F0B;
+  color: #FFDF73;
+  float: left;
+}
+.icon {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.icon:hover {
+  text-decoration: none;
+  opacity: 0.6;
+}
+.icon:before {
+  font-size: 18px;
+  display: block;
+  width: 34px;
+  text-align: center;
+  line-height: 34px;
+  font-family: 'responsifyjs' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+}
+.card .icon.github {
+  background: #FFF4E2;
+  border: solid 1px #45252A;
+}
+.icon.github:before {
+  content: "\e902";
+  color: #45252A;
+}
+.icon.githubStar {
+  background: white;
+  border: solid 1px black;
+}
+.icon.githubStar:before {
+  content: "\e905";
+  color: black;
+}
+.icon.export {
+  background: #FFFEDF;
+  border: solid 1px #884F67;
+}
+.icon.export:before {
+  content: "\e901";
+  color: #884F67;
+}
+.icon.facebook {
+  background: #FFDF73;
+  border: solid 1px #320F0B;
+}
+.icon.facebook:before {
+  content: "\e903";
+  color: #320F0B;
+}
+.icon.twitter {
+  background: #FFDF73;
+  border: solid 1px #320F0B;
+}
+.icon.twitter:before {
+  content: "\e900";
+  color: #320F0B;
+}
+main {
+  padding-top: 32px;
+  width: 720px;
+  margin: 0 auto;
+  font-family: 'Source Code Pro';
+}
+main h1 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #FFFFFF;
+  letter-spacing: 0.4px;
+  background: #000000;
+  border-radius: 32px;
+  line-height: 36px;
+  height: 36px;
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 32px;
+}
+main p {
+  font-weight: regular;
+  font-size: 16px;
+  color: #000000;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+main a {
+  color: #3D76C2;
+  text-decoration: none;
+    word-wrap: break-word;
+}
+a:hover {
+  text-decoration: underline;
+}
+main ol,
+main ul {
+  line-height: 24px;
+}
+main ol li{
+  list-style: decimal;
+  list-style-position: inside;
+  margin-bottom: 16px;
+}
+main ul li {
+  list-style: disc;
+  list-style-position: inside;
+  margin-bottom: 16px;
+}
+main h3 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #000000;
+  line-height: 24px;
+  margin-bottom: 16px;
+  margin-top: 32px;
+}
+pre {
+    font-size: 12px;
+    line-height: 20px;
+    padding: 16px 20px;
+    background: #F7F7F7;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    word-wrap: break-word;
+}
+.gifs {
+  width: 1000px;
+  margin: 32px auto;
+}
+.gifs h2 {
+  text-align: center;
+  margin-top: 8px;
+  font-weight: 400;
+}
+.gifs h2 strong {
+  font-weight: bold;
+}
+.gifs .with, .gifs .without {
+  width: 480px;
+  height: 382px;
+  float: left;
+}
+.gifs .with {
+  margin-right: 40px;
+}
+footer {
+  width: 720px;
+  margin: 32px auto;
+}
+footer .share {
+  text-align: center;
+  padding-bottom: 60px;
+}
+footer .share h3 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #000000;
+  line-height: 24px;
+  margin-bottom: 16px;
+  margin-top: 32px;
+}
+footer .share .icon {
+  width: 80px;
+  height: 80px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: solid 1px black;
+}
+footer .share .icon.facebook {
+  margin-right: 10px;
+}
+footer .share .icon:before {
+  color: black;
+  font-size: 32px;
+  width: 80px;
+  line-height: 80px;
+}
+.overlay {
+  display: none;
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.2);
+  transition: all 0.4s ease;
+}
+.module {
+  position: relative;
+  width: 400px;
+  margin: 0 auto;
+  top: -200px;
+  transition: all 0.4s ease;
+}
+.module .close.icon {
+  position: absolute;
+  box-sizing: border-box;
+  right:-36px;
+  top: 0;
+  width: 36px;
+  height: 36px;
+  background-color: #FFFEDF;
+  border: solid 1px #884F67;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.module .close.icon:before {
+  content: "\e906";
+  color: #884F67;
+}
+.module h1 {
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  line-height: 36px;
+  padding: 0 18px;
+  box-sizing: border-box;
+  border-radius: 32px;
+  background: #884F67;
+  color: #FFFEDF;
+}
+.module .moduleContent {
+  color: #884F67;
+  background: #FFFEDF;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 20px;
+  width: 364px;
+  padding: 12px 18px;
+  margin-top: 6px;
+  text-align: center;
+}
+.module .moduleContent p {
+  text-align: left;
+  margin-bottom: 16px;
+}
+.module .moduleContent .icon {
+    background: #FFFEDF;
+    border: solid 1px #884F67;
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    box-sizing: content-box;
+}
+.module .moduleContent .icon:before {
+    color: #884F67;
+    font-size: 32px;
+    width: 80px;
+    line-height: 80px;
+}
+body.overlayOn .overlay {
+  display: block;
+}
+body.overlayOn .module {
+  top: 200px;
+}
+header, main, footer {
+  transition: all 0.4s ease;
+}
+body.overlayOn header, 
+body.overlayOn main, 
+body.overlayOn footer {
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+}
+
+
+@media screen and (max-width: 1040px) {
+  .gifs {
+    width: 92%;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  .gifs .with, .gifs .without {
+    width: 48%;
+    height: auto;
+    float: left;
+  }
+  .gifs div img {
+    width: 100%;
+    height: auto;
+  }
+  .gifs .with {
+    margin-right: 4%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 760px) {
+  .img1 {
+    width: 33.33%;
+    height: 30vh;
+  }
+  .img2 {
+    width: 66.67%;
+    height: 30vh;
+  }
+  .img3 {
+    width: 33.33%;
+    height: 40vh;
+  }
+  .img4 {
+    width: 33.33%;
+    height: 40vh;
+  }
+  .img5 {
+    width: 33.33%;
+    height: 20vh;
+  }
+  .img6 {
+    width: 33.33%;
+    height: 20vh;
+  }  
+  .img7 {
+    width: 25%;
+    height: 50vh;
+  }
+  .img8 {
+    width: 25%;
+    height: 50vh;
+  }
+  .img9 {
+    width: 25%;
+    height: 30vh;
+  }
+  .img10 {
+    width: 25%;
+    height: 30vh;
+  }
+  .img11 {
+    width: 50%;
+    height: 20vh;
+  }
+  header .instruction.card p {
+    width: calc(100% - 20px);
+    box-sizing: border-box;
+    margin-top: 8px;
+  }
+  main {
+    width: 92%;
+    margin: 0 4%;
+  }
+  footer {
+    width: 92%;
+    margin: 0 4%;
+  }
+}
